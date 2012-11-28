@@ -1,0 +1,20 @@
+Name: fill-to-column
+Version: 0.0.0
+Synopsis: Simple app for filling text to a given column.
+Description:
+ Arg0 = column to fill to.
+ Arg1 = input file
+ Arg2 = output file
+Category:System
+
+License: GPL-3
+License-file:COPYING
+Author: Timothy Hobbs
+Maintainer: Timothy Hobbs <timothyhobbs@seznam.cz>
+build-type:Simple
+
+cabal-version: >= 1.4
+
+Executable fillToColumn
+ build-depends:base<5
+ main-is: fillToColumn.lhs
